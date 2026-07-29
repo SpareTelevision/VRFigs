@@ -21,3 +21,5 @@ All of the files in this folder are listed under creative commons licensing, as 
 - Try deleting and re-downloading the file.
     - If that does not work, contact repo owner and you will be sent a fresher model!
 - If model is missing textures, feel free to add your own and play with it! This isn't counted as a model error. however if there is a broken texture, flag it. 
+
+Enjoy the files, and most importantly, HAVE FUN!!!
