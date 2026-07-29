@@ -1,0 +1,67 @@
+Unity Basic Physics Demo Instructions
+
+Objective
+
+Demonstrate how Unity’s built-in physics system works using a simple
+falling cube.
+
+Step 1: Create the Ground
+
+1.  In the Hierarchy, right-click.
+2.  Select 3D Object → Plane.
+3.  Leave the plane at its default position.
+
+Step 2: Create a Cube
+
+1.  In the Hierarchy, right-click.
+2.  Select 3D Object → Cube.
+3.  Move the cube above the plane (for example, Position Y = 5).
+
+Step 3: Add Physics
+
+1.  Select the cube.
+2.  In the Inspector, click Add Component.
+3.  Search for and add Rigidbody.
+
+Step 4: Test the Scene
+
+1.  Press the Play button.
+2.  Watch the cube fall due to gravity.
+3.  Notice that it lands on the plane instead of falling through it.
+
+What to Explain
+
+Unity uses a Rigidbody component to apply physics such as gravity and
+forces. The cube and the plane both have Colliders, which define their
+physical boundaries. When the Rigidbody causes the cube to fall, the
+Colliders detect the collision and prevent the cube from passing through
+the floor.
+
+Optional: Make the Cube Bounce
+
+1.  In the Project window, right-click.
+2.  Select Create → Physics Material.
+3.  Name it Bouncy.
+4.  Set Bounciness to approximately 0.8.
+5.  Set Bounce Combine to Maximum.
+6.  Drag the Physics Material onto the cube’s Box Collider.
+
+Press Play again to see the cube bounce.
+
+Demonstration Script
+
+“Right now this cube is just a 3D object. It doesn’t respond to gravity
+until I add a Rigidbody component. Once I press Play, Unity’s physics
+engine pulls the cube downward. The cube and the floor both have
+Colliders, which tell Unity where their physical boundaries are. When
+the cube reaches the floor, the Colliders prevent it from passing
+through the plane. If I apply a Physics Material with high bounciness,
+the cube will rebound instead of stopping immediately.”
+
+Optional Comparison
+
+Duplicate the cube and modify one of the following: - Increase its
+Mass. - Increase its Drag. - Remove the Physics Material.
+
+This helps demonstrate how different physics properties affect object
+behavior.
