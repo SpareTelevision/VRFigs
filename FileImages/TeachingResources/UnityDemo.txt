@@ -1,0 +1,59 @@
+2-Minute Unity Environment Demo
+
+Welcome to Unity! Unity is a game engine used to create 2D games, 3D
+games, VR, AR, and even simulations. Today, I just want to show you the
+main parts of the editor so you know where everything is.
+
+Scene View
+
+The largest window here is the Scene View. Think of this as your
+workspace. You can click, drag, and move objects around to build your
+game world. This is where you’ll spend most of your time designing
+levels.
+
+Game View
+
+Next is the Game View. This shows what the player actually sees when
+the game is running. You’ll switch between Scene and Game View
+frequently while developing.
+
+Hierarchy
+
+On the left is the Hierarchy. Every object in your current scene is
+listed here—things like cameras, lights, characters, and platforms. If
+it’s in your level, you’ll find it here.
+
+Inspector
+
+On the right is the Inspector. Whenever I select an object, the
+Inspector lets me edit its properties, like its position, rotation,
+scale, or add components that give it new behaviors.
+
+Project Window
+
+At the bottom is the Project Window. This contains all of your assets:
+scripts, sprites, models, sounds, animations, and materials. Think of it
+as your project’s file explorer.
+
+Toolbar
+
+Across the top is the Toolbar. The most important button here is the
+Play button. Pressing Play lets you test your game instantly, and
+pressing it again stops the simulation.
+
+Wrap-Up
+
+That’s really all you need to get started. The Scene is where you
+build, the Game View is what the player sees, the Hierarchy keeps track
+of your objects, the Inspector edits them, and the Project Window stores
+your assets. Once you’re comfortable with these five areas, you’re ready
+to start creating games.
+
+Demo Actions
+
+1.  Click a cube in the Hierarchy.
+2.  Show its Transform values in the Inspector.
+3.  Move it in the Scene View.
+4.  Switch to the Game View.
+5.  Press Play for a few seconds, then stop.
+6.  Drag an asset from the Project Window into the Scene.
